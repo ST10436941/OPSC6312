@@ -1,0 +1,31 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Keep the wrapper jar out of source control only if you regenerate it
+# yourself via Android Studio - otherwise commit it so CI can use ./gradlew.
+# gradle/wrapper/gradle-wrapper.jar
+
+# Firebase - do not commit your real config to a public repo
+# app/google-services.json
+
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Keystores
+*.jks
+*.keystore
